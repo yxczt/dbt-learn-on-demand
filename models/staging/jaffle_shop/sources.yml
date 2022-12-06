@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: dbt_zselo
+    database: analytics
+    tables:
+      - name: orders
+      - name: customers
+      
