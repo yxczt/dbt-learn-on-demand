@@ -5,3 +5,4 @@ sources:
     database: analytics
     tables:
       - name: payments
+    
