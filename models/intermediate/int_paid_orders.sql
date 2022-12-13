@@ -12,7 +12,7 @@ paid_orders as (
     select 
         orders.order_id,
         orders.customer_id,
-        orders.order_placed_at,  
+        orders.order_placed_at,
         orders.order_status,
         payments.total_amount_paid,
         payments.payment_finalized_date
